@@ -1,0 +1,32 @@
+src/*.exe
+src/chesscoin
+src/chesscoind
+src/test_chesscoin
+src/build.h
+src/qt/locale
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.chesscoin
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+chesscoin-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
+
+Makefile.Debug
+Makefile.Release
+object_script.chesscoin-qt.Debug
+object_script.chesscoin-qt.Release
